@@ -26,11 +26,14 @@ for i in dictionary:
         # find each combination of cited papers
         for j in range(len(ref_list)):
             for k in range(j+1, len(ref_list)):
+                pair = (ref_list[j], ref_list[k])
+                pair = sorted(pair)
+                pair = tuple(pair)
                 # if the given combination isn't in the dictionary, add a new key. Else increase the value by one.
-                if str(ref_list[j]) + " " + str(ref_list[k]) not in count_dict:
-                    count_dict[str(ref_list[j]) + " " + str(ref_list[k])] = 1
+                if pair not in count_dict:
+                    count_dict[pair] = 1
                 else:
-                    count_dict[str(ref_list[j]) + " " + str(ref_list[k])] += 1
+                    count_dict[pair] += 1
 
 df = pd.DataFrame(list(count_dict.items()), columns=['Pair', 'Count'])
 df = df.sort_values('Count')
