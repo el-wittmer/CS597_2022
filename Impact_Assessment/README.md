@@ -9,3 +9,5 @@
 [Breadth and Depth Timeline Figure](Impact_Assessment/Timeline_BD.py) - Creates a figure showing the proportion of breadth to the proportion of depth over time. 
 
 [Citation Count per Year](Impact_Assessment/Citation_Count.py) - Counts the number of citations Paul et al. (1963) received between 1964 and 1984.
+
+[Paul JSON File Generator](Impact_Assessment/Paul_JSON.py) - Creates JSON files for the Paul network, to be used for visualizations constructed using D3 JavaScript library
