@@ -6,7 +6,7 @@
 
 [Paul Network Generator](Impact_Assessment/Paul_network_generator.py) - Creates tsv files containing the Paul citation data for each year studied (1964-1984).
 
-[Breadth and Depth Timeline Figure](Impact_Assessment/Timeline_BD.py) - Creates a figure showing the proportion of breadth to the proportion of depth over time. 
+[Timeline_BD.py](Impact_Assessment/Timeline_BD.py) - Creates a figure showing the proportion of breadth to the proportion of depth over time. 
 
 [Citation Count per Year](Impact_Assessment/Citation_Count.py) - Counts the number of citations Paul et al. (1963) received between 1964 and 1984.
 
