@@ -1,6 +1,6 @@
 # Files in this folder:
 
-### Please note that all files are hard-coded
+### Please note that all file names are hard-coded
 
 [Wos Check](Impact_Assessment/WoS_Check.py) - Compares the citation data I retreieved from Wos relevant to Paul et al. (1963) against Leng's (2022) data. Prints the id numbers of items present in Leng but not in my own data. 
 
