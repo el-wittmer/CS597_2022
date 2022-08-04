@@ -10,4 +10,4 @@
 
 [Citation_Count.py](Impact_Assessment/Citation_Count.py) - Counts the number of citations Paul et al. (1963) received each year between 1964 and 1984.
 
-[Paul_JSON.py](Impact_Assessment/Paul_JSON.py) - Creates JSON files for the Paul network, to be used for visualizations constructed using D3 JavaScript library. See [Network Graphs](/Network_Graphs)
+[Paul_JSON.py](Impact_Assessment/Paul_JSON.py) - Creates JSON files for the Paul network, to be used for visualizations constructed using D3 JavaScript library. See [Network Graphs](https://github.com/el-wittmer/CS597_2022/tree/main/Impact_Assessment/Network_Graphs)
