@@ -1,4 +1,4 @@
-# Files in this folder:
+# Items in this directory:
 
 ### Please note that all file names are hard-coded
 
